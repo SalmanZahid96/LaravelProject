@@ -76,7 +76,9 @@
                                 <li><a href="{{route('home')}}">{{__('Home')}}</a></li>
 
                                 @foreach($pages as $k => $data)
+                                   @if($data->name != 'Service')
                                     <li><a href="{{route('pages',[$data->slug])}}">{{__($data->name)}}</a></li>
+                                   @endif 
                                 @endforeach
 
                                 <li><a href="{{ route('contact') }}">@lang('Contact')</a></li>

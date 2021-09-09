@@ -41,7 +41,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="banner-content">
-                        <h2 class="title">{{ __(@$hero_content->data_values->heading) }}</h2>
+                        <h2 class="title">Grow Your Business With Sez</h2>
                         <p>Sez help you taking your buissnis a step forward using our services. </p>
                         <!-- <div class="banner-btn">
                             <a href="{{ @$hero_content->data_values->button_link }}" class="cmn-btn">{{ __(@$hero_content->data_values->button) }}</a>
