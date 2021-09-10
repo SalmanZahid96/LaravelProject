@@ -54,7 +54,7 @@
     margin-bottom: 130px;
 ">
                 <div class="about-content">
-                <div ><img src="{{ getImage('assets/images/frontend/about/logo2_yellow gradient.png' , '518x499') }}" alt="about"></div>
+                <div ><img src="{{ getImage('assets/images/frontend/about/logo_yellow.png' , '518x499') }}" alt="about"></div>
                     <!-- <h2 class="title">{{ __(@$about_content->data_values->title) }}</h2> -->
                     <!-- <span class="title-border"></span> -->
                     <p style="color: #000000;">   Sez Media Is An Online Media , Composed Of Some Series Of Small Shows Presented By A Group Of Influencers , Sez Media With Her Devirsty Show Give In Your Hand A Large Community To Promote your Business ..By Using Our Show To Target The Most People That Are Intrested In Your Buissnis And Also Get A New Clients. </p>
