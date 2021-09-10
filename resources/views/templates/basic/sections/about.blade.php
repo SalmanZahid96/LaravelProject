@@ -45,7 +45,7 @@
         <div class="row justify-content-center ml-b-30" >
             <div class="col-lg-6 mrb-30">
                 <div class="about-thumb">
-                    <img src="{{ getImage('assets/images/frontend/about/postvrai3.png' , '518x499') }}" alt="about" style="
+                    <img src="{{ getImage('assets/images/frontend/about/postvrai3.jpg' , '518x499') }}" alt="about" style="
     width: 435px;
 ">
                 </div>
