@@ -29,7 +29,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-8 mrb-30">
                         <div class="news-items" onclick="location.href='{{ route('contact') }}'" style="cursor: pointer;">
                             <div class="news-thumb">
-                            <img class="img" src="{{ getImage('assets/images/frontend/blog/Capture2.png', '600x400') }}" alt="news">
+                            <img class="img" src="{{ getImage('assets/images/frontend/blog/Capture2.jpg', '600x400') }}" alt="news">
                             <strong class="carousel-projet-title"><span class="text-highlight-sub-lg" style="
     color: white;
 ">Stores</span></strong>
