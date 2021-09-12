@@ -3,9 +3,7 @@
 @section('content')
 
 
-    @if($sections->secs != null)
-        @foreach(json_decode($sections->secs) as $sec)
-            @include($activeTemplate.'sections.'.$sec)
-        @endforeach
-    @endif
+@include($activeTemplate.'sections.about')
+@include($activeTemplate.'sections.about_2')
+@include($activeTemplate.'sections.about_3')
 @endsection
