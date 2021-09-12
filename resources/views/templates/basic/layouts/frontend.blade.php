@@ -76,7 +76,7 @@
                                 <li><a href="{{route('home')}}">{{__('Home')}}</a></li>
 
                                 @foreach($pages as $k => $data)
-                                   @if($data->name != 'Service')
+                                   @if($data->name != 'Service' && $data->name != 'Blog')
                                     <li><a href="{{route('pages',[$data->slug])}}">{{__($data->name)}}</a></li>
                                    @endif 
                                 @endforeach
