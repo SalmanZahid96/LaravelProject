@@ -2,6 +2,6 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !^public
 RewriteRule ^(.*)$ public/$1 [L]
-RewriteCond %{HTTPS} on
-RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^sezofficiel.herokuapp\.com$ [NC]
+RewriteRule ^(.*)$ http://sezofficiel.herokuapp.com/$1 [R=301,L]
 </IfModule>
